@@ -9,8 +9,8 @@ Voici un petit index pour naviguer entre les différentes ressources
 
 - [Consignes de l'examen de juin 2020](examen.md)
 - [Introduction](introduction.md)
-- [DB orientée graphe](neo4j.md)
-- [DB clef-valeur](redis.md)
-- [DB orientée document](mongodb.md)
+- [DB orientée graphe](graphe.md)
+- [DB clef-valeur](clef-valeur.md)
+- [DB orientée document](document.md)
 - Chapitre 6
 - Résolu de l'examen de 2018

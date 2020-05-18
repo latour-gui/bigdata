@@ -1,19 +1,19 @@
-# Neo4J
+# Graphe
 
-- [Neo4J](#neo4j)
-  - [Graphe](#graphe)
+- [Graphe](#graphe)
+  - [Définition](#d%c3%a9finition)
     - [Labeled property graph](#labeled-property-graph)
     - [OLTP vs OLAP](#oltp-vs-olap)
   - [Propriétés des SGBD orientés graphe](#propri%c3%a9t%c3%a9s-des-sgbd-orient%c3%a9s-graphe)
     - [Performances](#performances)
-  - [Cypher](#cypher)
+  - [Neo4j & Cypher](#neo4j--cypher)
     - [Syntaxe](#syntaxe)
     - [Type des données stockées](#type-des-donn%c3%a9es-stock%c3%a9es)
     - [Create](#create)
     - [Match](#match)
   - [Swiss army knife queries](#swiss-army-knife-queries)
 
-## Graphe
+## Définition
 
 Un graphe est un ensemble de noeuds et de relations entre ces noeuds.
 
@@ -49,7 +49,7 @@ Généralement les performances sont meilleures avec un moteur orienté graphe c
 - dans un graphe, la performance dépend surtout de la proportion de graphe impliquée par la requête
 - dans un RSGDB, la performance dépend surtout de la taille totale du graphe (`JOIN`)
 
-## Cypher
+## Neo4j & Cypher
 
 Voici un [super tutoriel](https://github.com/adambard/learnxinyminutes-docs/blob/master/cypher.html.markdown) disponible sur github. J'ai quand même résumé les slides ci-après.
 
