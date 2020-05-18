@@ -6,7 +6,7 @@ L’évaluation est réalisée à distance et prend la forme d’un examen écri
 
 L’outil utilisé pour réaliser cette évaluation à distance est Webcampus, et un particulier l’outil Devoirs. Chaque étudiant recevra un énoncé en PDF en début d’épreuve. Il devra soumettre ses différentes réponses au sein d’un seul fichier PDF avant la fin de l’épreuve.
 
-Je serai disponible sur Teams pendant toute la durée de l’épreuve, pour permettre à chaque étudiant de me poser d’éventuelles questions concernant l’examen, soit via le chat, soit via une court appel audio/vidéo.
+> Je serai disponible sur Teams pendant toute la durée de l’épreuve, pour permettre à chaque étudiant de me poser d’éventuelles questions concernant l’examen, soit via le chat, soit via une court appel audio/vidéo.
 
 Caractéristiques de l’évaluation
 
@@ -31,7 +31,7 @@ Caractéristiques de l’évaluation
 - Théorie (en particulier le fonctionnement des hashtables)
 - Exercices
 
-Chapitre 4 : Base de données orientées documents
+## Chapitre 4 : Base de données orientées documents
 
 - Théorie limitée aux concepts généraux
 - Exercices
