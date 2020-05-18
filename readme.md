@@ -8,9 +8,9 @@ J'ai rassemblé et résumé les différentes ressources mises à notre dispositi
 Voici un petit index pour naviguer entre les différentes ressources
 
 - [Consignes de l'examen de juin 2020](examen.md)
-- [Chapitre 1](introduction.md)
-- [Chapitre 2](neo4j.md)
-- [Chapitre 3](redis.md)
-- [Chapitre 4](mongodb.md)
+- [Introduction](introduction.md)
+- [DB orientée graphe](neo4j.md)
+- [DB clef-valeur](redis.md)
+- [DB orientée document](mongodb.md)
 - Chapitre 6
 - Résolu de l'examen de 2018
