@@ -41,6 +41,9 @@ k = available slots
 
 La **hash table** est moins performante quand le ratio est grand. Il faut garder ce **load factor** sous une certaine limite.
 
+Il est théoriquement possible d'avoir un *load factor* de 1.
+Au plus il est petit, au plus il est performant mais au plus de mémoire est consommée.
+
 ### hash function
 
 L'idée de la **fonction de hashing** est de distribuer les entrées (clef-valeur) au sein d'un tableau de slots indexés.
