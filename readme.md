@@ -12,5 +12,5 @@ Voici un petit index pour naviguer entre les différentes ressources
 - [DB orientée graphe](graphe.md)
 - [DB clef-valeur](clef-valeur.md)
 - [DB orientée document](document.md)
-- Chapitre 6
+- [map reduce](map-reduce.md)
 - Résolu de l'examen de 2018
