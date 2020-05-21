@@ -12,6 +12,7 @@
     - [Create](#create)
     - [Match](#match)
   - [Swiss army knife queries](#swiss-army-knife-queries)
+    - [récupérer les cousins](#r%c3%a9cup%c3%a9rer-les-cousins)
 
 ## Définition
 
@@ -123,6 +124,11 @@ et va retourner tous les noeuds qui sont en relation `KNOWS` avec Jean.
 
 ## Swiss army knife queries
 
+### récupérer les cousins
+
 ```cypher
-work in progress
+MATCH 
+  (me:Person) -[:ISCHILD]-> (parent:Person) -[:ISCHILD]-> (grandparent:Person) <-[:ISCHILD]- (uncle:Person)<-[:ISCHILD]- (cousin:Person)
+WHERE parent <> uncle
+RETURN me, collect(distinct cousin)
 ```
