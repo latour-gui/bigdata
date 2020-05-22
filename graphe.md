@@ -13,6 +13,7 @@
     - [Match](#match)
   - [Swiss army knife queries](#swiss-army-knife-queries)
     - [récupérer les cousins](#r%c3%a9cup%c3%a9rer-les-cousins)
+    - [Quel est le chemin de relations le plus court si "Keanu Reeves" souhaitait prendre contact avec "Francis Ford Coppola"](#quel-est-le-chemin-de-relations-le-plus-court-si-%22keanu-reeves%22-souhaitait-prendre-contact-avec-%22francis-ford-coppola%22)
 
 ## Définition
 
@@ -127,8 +128,19 @@ et va retourner tous les noeuds qui sont en relation `KNOWS` avec Jean.
 ### récupérer les cousins
 
 ```cypher
-MATCH 
+MATCH
   (me:Person) -[:ISCHILD]-> (parent:Person) -[:ISCHILD]-> (grandparent:Person) <-[:ISCHILD]- (uncle:Person)<-[:ISCHILD]- (cousin:Person)
 WHERE parent <> uncle
 RETURN me, collect(distinct cousin)
+```
+
+### Quel est le chemin de relations le plus court si "Keanu Reeves" souhaitait prendre contact avec "Francis Ford Coppola"
+
+```cypher
+MATCH
+  (the_one:Person {name:'Keanu Reeves'}),
+  (godfather:Person  {name:'Francis Ford Coppola'}),
+  p = shortestPath((the_one)-[*]-(godfather))
+WHERE ALL(r in relationships(p) WHERE type(r)<> "HAS_GENRE" AND type(r) <> "HAS_KEYWORD")
+RETURN p
 ```
